@@ -10,15 +10,22 @@
 - necessário mais conhecimento de SQL
 - ruim para mudar de banco, talvez programar com um driver x não funcione em um driver y
 
-## 2 - Query builders
+ 
+exemplo: **mysql**
+
+## 2 - Query builders 
 
 - sintaxe mais parecida com as linguagens de programação
 - estrutura mais generalizada para os bancos em geral
  
+exemplo: **knex**
+
+
 ## 3 - ORM - Object Relational Map
 Frameworks ou bibliotecas que ajudam no mapeamento entra a entidade e o objeto.
 
 repositório - gerenciador de entidade
-
+ 
+exemplo: **typeorm**
 
 

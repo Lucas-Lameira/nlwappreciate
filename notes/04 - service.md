@@ -17,4 +17,5 @@ Portanto toda regra da aplicação precisa estar em uma camada, nesse caso a de 
 
 
 ## fluxo 
+server chama controller, controller chama service ....
 server -> controller ->  Service -> Repositories -> Banco de dados

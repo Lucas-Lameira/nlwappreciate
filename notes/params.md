@@ -51,13 +51,12 @@ app.get("/products", (request, response) => {
 })
 ```
 
-## query != route
+### query != route
 * query params são parâmetros não obrigatórios, ou seja, a rota pode ou não recebe-los
 * query params não ficam explicitos no app.get()
 
 
 ## Body params
-
 Parâmetros que vem no corpo da requisição.
 
 Parametros utilizados nos metodos: 
@@ -66,8 +65,15 @@ Parametros utilizados nos metodos:
 - **patch**
 
 
+
 ### Exemplo no **express.js**:
 ```javascript
 app.get("/products", (request, response) => {
    const id = request.body;/* check if this is right */
 })
+```
+
+## Header Params
+??????
+```
+```
