@@ -17,7 +17,8 @@ app.use((error: Error, request: Request, response: Response, next: NextFunction)
    //check for throw error
    if (error instanceof Error) {
       return response.status(400).json({
-         error: error.message
+         error: error.message,
+         teste: "teste"
       })
    }
 

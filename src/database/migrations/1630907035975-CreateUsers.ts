@@ -21,14 +21,14 @@ export class CreateUsers1630907035975 implements MigrationInterface {
                         type: "varchar"
                     },
                     {
+                        name: "password",
+                        type: "varchar"
+                    },
+                    {
                         name: "admin",
                         type: "boolean",
                         default: false
                     },
-                    /* {
-                        name: "password",
-                        type: "varchar"
-                    }, */
                     {
                         name: "created_at",
                         type: "timestamp",

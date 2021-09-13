@@ -9,7 +9,6 @@ export class CreateTagService {
          throw new Error("nameless tag"); //nameless
       }
 
-
       // select * from tags where name = 'name';
       const tagAlreadyExists = await tagsRepositories.findOne({ name });
 
