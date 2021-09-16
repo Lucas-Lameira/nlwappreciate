@@ -14,7 +14,7 @@ app.use(router);
 // middleware to catch errors
 app.use((error: Error, request: Request, response: Response, next: NextFunction) => {
 
-   //check for throw error
+   //throw Error
    if (error instanceof Error) {
       return response.status(400).json({
          error: error.message,
