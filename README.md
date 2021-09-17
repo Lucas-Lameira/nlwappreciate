@@ -39,6 +39,7 @@
 * [Node.Js](https://nodejs.org/en/)
 * [Express](https://expressjs.com/)
 * [JsonWebToken](https://jwt.io/)
+* [TypeORM](https://typeorm.io/#/)
 
 # Run the Project
 <p>Download the project or clone the repository</p>
