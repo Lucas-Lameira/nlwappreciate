@@ -2,13 +2,18 @@
 <p align="center">Multi-level user app to register and give positive feedback to other users</p>
 
 <p align="center"> 
- <a href="# Business rule">Business rule</a> • 
+ <a href="#Business rule">Business rule</a> • 
+ <a href="#DER">DER</a> •
  <a href="#Tecnologies">Tecnologies</a> • 
  <a href="#Run the Project">Run the Project</a> • 
  <a href="#Tools">Tools</a> • 
  <a href="#New Features">New Features</a> • 
  <a href="#References">References</a> • 
 </p>
+
+<h1 align="center">
+  <img alt="project image" title="#project" src="./screenshots/wall.png" />
+</h1>
 
 # Business rule
 ## User register
@@ -24,6 +29,11 @@
 - [x] An user cannot "compliment" himself
 - [x] It is not allowed to register a "compliment" for an invalid user
 - [x] The user must be authenticated in the app to "compliment"
+
+# DER
+<h1 align="center">
+  <img alt="project image" title="#project" src="./screenshots/DER.jpg" />
+</h1>
 
 # Tecnologies
 * [Node.Js](https://nodejs.org/en/)
